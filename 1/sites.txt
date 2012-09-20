@@ -1,0 +1,17 @@
+1    Ritz Carlton Palm Beach, Florida                   http://www.ritzcarlton.com/en/Properties/PalmBeach/Default.htm
+    Pebble Beach Resorts, California
+        http://www.pebblebeach.com/
+     
+    Elements I see: Header bar on top portion of sites includes resort logo and name,         address/contact, map... interactive menu on bottom of header features links to other         parts of the site via drop down menu (room pics, activities, dining, spa. Under the         header is a large picture area featuring a rotating array of pictures of the resorts and     surrounding area (beaches, cliffs). Below that an intro snippet and photo links to           special promotions, events, hotel highlights. Simple but elegant.
+
+
+2. Duck Soup http://www.quackquackquack.com/ (specialty foods and housewares)
+   Thinking Cup: http://thinkingcup.com/ (Cafe)
+
+   Simple setups, logo top left, menu bar horizontal or vertical, both feature pictures in      the middle- storefront, cup of coffee on the table make it clear what they're selling,       links to about, menus, products, location, etc. For cafe, interactive menu with lots of      tasty pics. Should be adataple to screen but Thinking Cup's is not. About links features 
+   a bit of history on how the establishment came to be. Creative url is catchy, makes          remembering easy (QuackQuackQuack.com)
+
+3. Democratic and Republican Parties http://www.democrats.org/ & http://www.gop.com/
+  
+   
+   Heavy on the red,white, and blue (that's the theme). Blog-like layout. Both change to    mobile layout if window is resized down. Most pics on the site feature their Presidential    candidate. featured blog posts center on what the opposing candidate is doing wrong.    Prominent catchphrases and banners. Stay up to date/Join us links top right   (email, Twitter, Facebook, etc.). Red donate buttons stand out on both pages. 
