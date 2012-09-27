@@ -1,0 +1,7 @@
+Cafe Diem User Stories:
+
+1. Jo, 20 year old college student. Looking for a place for her morning coffee    before work and a place to do homework in the afternoon. Site should show    that the cafe has free wi-fi, plenty of seating with tables and couches.    Also emphasize student discounts with valid student ID.
+
+2. Nathan, 35 year old business man. Looking for an afternoon pick-me-up. Site    should show the daily specials and be easily found on Google Maps (embedded    interactable map) so he can see that the cafe is close to his place of    work.
+
+3. Sandra, 65 year old retiree, likes a cup of tea in the afternoon, sometimes    coffee. Site should be easy to navigate with easy to view menu, show the    wide variety of food and    drink available, especially tea types.

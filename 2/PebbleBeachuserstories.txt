@@ -1,0 +1,7 @@
+Pebble Beach Resort User Stories:
+
+1. Helen, 40, longtime patron, booking her vacation. Site should have    reservation window on homepage so they can be made quickly without having    to navigate through the site. 
+
+2. Jack and Samantha, 30s, looking to splurge on a luxury vacation. Site    should have plenty of details about types of rooms, activites to do at the    resort and attractions near the resort. Highlight vacation packages.
+
+3. Jerry, 50s, on vacation, looking to do some golfing. Make sure the many    golf courses are highlighted, show current golfing events, services    available. 
