@@ -8,11 +8,10 @@
 
 <link rel="Stylesheet" href="styles.css" type="text/css" />
 
-<script src='/js/jquery.min.js'></script>
-<script src='/js/jquery.cycle.all.lastest.js'></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle.all.latest.js"></script>
 
 <title> Pebble Beach Resort</title>
-
 
 
     <style type="text/css">
@@ -22,14 +21,6 @@
             font-size: medium;
         }
     </style>
-
- <script type="text/javascript">
-     $(document).ready(function () {
-         $('.slideshow').cycle({
-             fx: 'fade' 
-         });
-     });  
-    </script>
 
 </head>
 
@@ -59,11 +50,21 @@
     </nav>
 
     <div class="slideshow">
-      <img src= "images/resortinn.jpg" class="photo">
-      <img src= "images/resortgolf.jpg" class="photo">     
-      <img src= "images/Resort2.jpg" class="photo">  
+      <img src= "images/resortinn.jpg" width="960px">
+      <img src= "images/resortgolf.jpg" width="960px">     
+      <img src= "images/Resort2.jpg" width="960px">  
     </div>
- 
+       <script type="text/javascript">
+           $(document).ready(function () {
+               $(".slideshow").cycle({
+                   //next: "#slideshow",
+                   //speed: 5000,
+                   //timeout: 200,
+                   fx: 'fade',
+                   responsive: true,
+               });
+           });
+    </script>
 
   <article>
    <div id="temp">Current Temperature: 56 ° F</div> <!--weather and other content to be determined-->
