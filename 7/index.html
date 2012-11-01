@@ -70,17 +70,13 @@
    <script type="text/javascript">     
      $(document).ready(function () {
            $.ajax({
-              /* url: "http://api.wunderground.com/api/89a09f90c993eb58/geolookup/conditions/q/IA/Cedar_Rapids.json",
+               url: "http://api.wunderground.com/api/89a09f90c993eb58/geolookup/conditions/q/IA/Cedar_Rapids.json",
                dataType: "jsonp",
                success: function (parsed_json) {
                    var location = parsed_json['location']['city'];
                    var temp_f = parsed_json['current_observation']['temp_f'];
-                   html+=  "<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>"; }*/
-                 $.getJSON('http://api.wunderground.com/api/89a09f90c993eb58/geolookup/conditions/q/CA/Pebble_Beach.json')  
-                   var location = parsed_json['location']['city'];
-                   var temp_f = parsed_json['current_observation']['temp_f'];
-                 function(data) {
-                
+                   html+=  "<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>"; }
+                 
                 $("#temp").append("<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>")
                 $("#temp").html(html);
                 console.log("temp")
