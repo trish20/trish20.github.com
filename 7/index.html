@@ -75,9 +75,10 @@
                success: function (parsed_json) {
                    var location = parsed_json['location']['city'];
                    var temp_f = parsed_json['current_observation']['temp_f'];
-                   html+=  "<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>"; } 
-                $(".temp").append("<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>")
-                $(".temp").html(html);
+                   html+=  "<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>"; }
+                    alert("Current temperature in " + location + " is: " + temp_f);
+                //$("#temp").append("<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>")
+               // $("#temp").html(html);
                }
            });
 
