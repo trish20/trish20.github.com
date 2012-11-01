@@ -78,7 +78,8 @@
                    html+=  "<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>"; }
                    
                 $("#temp").append("<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>")
-                $("#cmon").html(html);
+                $("#temp").html(html);
+                console.log("temp")
                }
            });
 
