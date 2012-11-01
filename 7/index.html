@@ -76,9 +76,9 @@
                    var location = parsed_json['location']['city'];
                    var temp_f = parsed_json['current_observation']['temp_f'];
                    html+=  "<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>"; }
-                    alert("Current temperature in " + location + " is: " + temp_f);
-                //$("#temp").append("<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>")
-               // $("#temp").html(html);
+                   
+                $("#temp").append("<p>" + "Current temperature in " + location + " is: " + temp_f + "</p>")
+                $("#cmon").html(html);
                }
            });
 
@@ -100,6 +100,7 @@
 
  <footer>
     <div id="bottom">
+    <div id="cmon"></div>
     <ul id="bottom">
     <!--I'll probably change up the menu style-->
      <li><a href="#" class="reset">Contact Us</a></li>
