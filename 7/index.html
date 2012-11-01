@@ -67,10 +67,12 @@
     </script>
 
   <article>
-   <script type="text/javascript">     
+   
+   <div id="temp">
+     <script type="text/javascript">     
      $(document).ready(function () {
            $.ajax({
-               url: "http://api.wunderground.com/api/89a09f90c993eb58/geolookup/conditions/q/IA/Cedar_Rapids.json",
+               url: "http://api.wunderground.com/api/89a09f90c993eb58/geolookup/conditions/q/CA/Pebble_Beach.json",
                dataType: "jsonp",
                success: function (parsed_json) {
                    var location = parsed_json['location']['city'];
@@ -85,8 +87,9 @@
 
        });
     </script>
-
-   <div id="temp"></div> 
+  
+       
+   </div> 
    <div id="article">
     <h1 class="style4">Welcome to Pebble Beach Resorts</h1>
      <p>Pebble Beach Resorts is a legendary place. Combine a dramatic coastline and mystical forest with a rich history of world-class accommodations, warm hospitality, expert service and grand recreation. Perhaps nowhere else on the planet does this combination come together quite like Pebble Beach Resorts.
