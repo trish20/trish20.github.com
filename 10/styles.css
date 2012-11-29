@@ -1,0 +1,214 @@
+﻿html {
+	min-width: 1280px
+	}
+	
+body {
+	font-family: arial;
+	color: #8b7c54;
+	line-height: 1.5em;
+	font-size: 100%;
+	background: url(images/bodybg.jpg) repeat;
+	
+}
+
+#page {
+	max-width: 1280px;
+	min-width: 1200px;
+	width: 1280px;
+	margin: 10px auto 10px auto;
+	position: relative;
+	}
+	
+header {
+	position: relative;
+	height: 210px;
+	margin-bottom: 30px;
+	}
+
+	header h1 {
+		 height: 210px;
+		 background: url(images/mulan.jpg) no-repeat 100px 25px;
+		 text-indent: -9999px;
+		}
+		
+#top-nav{
+	position: absolute;
+	top: 150px;
+	left: 800px;
+	}
+
+	#top-nav li {
+		float: left;
+		list-style-type: none;	
+		font-size: 1.2em;
+		text-align: center;		
+		background-color: #330033;
+		padding: 5px;
+		margin-right: 10px;
+
+		}
+
+	nav li a {
+		color: #FFF;
+		font-size: .9em;
+		padding: 10px 25px;
+		text-align: center;
+		margin: 0 auto; 
+		-webkit-transition: 0.4s ease-in-out;
+		-moz-transition: 0.4s ease-in-out;
+		transition: 0.4s ease-in-out;
+		}
+
+	nav li a:hover {
+		color: #660000;
+	}
+	
+#visual {
+	width: 1280px;
+	height: 425px;
+	padding-bottom: 40px;
+
+	}
+
+	#slideshow {
+		float:left;
+		width: 816px;
+		height: 425px;
+		} 
+
+	#intro {
+		float: right;		
+		width: 450px;
+		height: 425px;
+		}
+		
+	#intro h2 {
+		font-family: Arial;
+		font-size: 1.2em;
+		line-height: 1.7em;
+		padding: 55px 40px;
+		}
+
+	
+#lower {
+	clear: both;
+	height: 400px;
+	padding: 30px 40px 40px;
+	background-color: #f5efe8;
+	}
+
+	.twitter {
+		float: left;
+		width: 280px;
+		height: 260px;
+		}
+
+	.welcome {
+		float: left;
+		padding-right: 30px;
+		padding-left: 35px;
+		width: 400px;
+		}
+
+	.hours {
+		float: left;
+		width: 445px;
+		}
+		
+
+
+	#lower li {
+		list-style-type: none;
+		}
+
+	#lower h2, #menu h2 {
+		text-shadow: 0.01em 0.03em 0.05em #333;		
+		letter-spacing: .1em;
+		font-size: 1.2em; 
+		margin-bottom: 10px;
+		}
+		
+	.intro h3, .hours h3 {
+		color: #660000;
+		font-size: 1.1em;
+		}
+		
+	#lower .intro p, .hours li {
+		color: #4c3906;
+		font-size: 1em;
+		line-height: 1.3em;
+		margin-bottom: .5em;
+		}
+
+	.hours .location-one {
+		padding-bottom: 1em;
+		}
+
+	.hours li {
+		line-height: 1em;
+		}
+
+	.twitter h3 {
+		color: #6a9d57;
+		font-size: .9em;
+		}
+
+	.twitter p {
+		color: #4c3906;
+		font-size: 1em;
+		line-height: 1.3em;
+		margin-bottom: .5em;
+		}
+		
+	div #tweets-container {
+		height: 250px;
+		padding-right: 10px;
+		overflow: auto; 
+		}
+		
+	#tweets p a:link, #tweets p a:active, .tweets p a:visited { color: #6fb2cd; text-decoration: none; }
+	#tweets p a:hover  { text-decoration: underline; }
+
+    .city {
+		font-weight: bold;
+		margin-left:40px;
+	}
+	.times {
+	    margin-left:40px;
+	}
+	.mon {
+	    margin-left:140px;
+     }
+     .days {
+        margin-left:40px;
+     }
+     .days2 {
+        margin-left:60px;
+     }
+     .days3 {
+        margin-left:120px;
+     }
+     .address  {
+        margin-left:60px;  
+     }
+	#intro li a {
+		text-decoration: none;
+		color: #fdaf40;
+	}
+
+footer { 
+	clear:both;
+	position: relative;
+	font-size: 1em; 
+	color: #372707; 
+	padding: 20px;
+	background: url(images/footer-image.png) no-repeat bottom right;
+	background-color: rgba(253, 175, 64, .5)
+	}
+	
+	span#tel {
+		float:right;
+		padding-right: 40px;
+			}
+
+		
