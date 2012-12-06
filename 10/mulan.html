@@ -6,12 +6,13 @@
 <meta name="viewport" content="width=device-width, maximum-scale-1.0, minimum-scale=1.0, initial-scale=1.0" />
 <link href="styles.css" rel="stylesheet" type="text/css" />
 
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src='https://raw.github.com/timrwood/moment/1.7.2/min/moment.min.js'></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
 
+<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
 
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script src="/js/jquery.cycle.all.js"></script>
-<script src='https://raw.github.com/timrwood/moment/1.7.2/min/moment.min.js'></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>	
 <title> Mulan Restaurant
 </title>
 
@@ -25,41 +26,37 @@
 		
 		<nav id="top-nav">
 				<ul>
-                    <li><a class="nav-link" href="#">Home</a></li>
 					<li><a class="nav-link" href="menu.html">Menu</a></li>					
-					<li><a class="nav-link" href="#">Location & Map</a></li>
+					<li><a class="nav-link" href="map.html">Location & Map</a></li>
 				</ul>
 		</nav>
-			
-		<section id="visual">
 		
-			<div id="slideshow">
-				<!--<img src="images/slider0.jpg" width="816" height="425" alt="food" class="first">
-				<img src="images/slider1.jpg" width="816" height="425" alt="food">
-			    <img src="images/slider2.jpg" width="816" height="425" alt="food">-->
-			    <img src="images/slider3.jpg" width="816" height="425" alt="food">
-			    <!--img src="images/slider4.jpg" width="816" height="425" alt="food">
-                <img src="images/slider5.jpg" width="816" height="425" alt="food"-->
-			</div>
-			<script>
-			    $(document).ready(function () {
-			        $("#slideshow").cycle({
-			            next: "#slideshow",
-			            speed: 2000,
-			            //timeout: 200,
-			            //random: 1,
-			            fx: 'fade'
+		<section id="visual">		
+			<div class="slideshow" style="float:left;">
+			    <img src="images/slider3.jpg" width="616" height="325" alt="food">
+				<img src="images/slider0.jpg" width="616" height="325" alt="food">
+				<img src="images/slider1.jpg" width="616" height="325" alt="food">
+			    <img src="images/slider2.jpg" width="616" height="325" alt="food">
+			    <img src="images/slider4.jpg" width="616" height="325" alt="food">
+                <img src="images/slider5.jpg" width="616" height="325" alt="food">
+			</div>					
+            <script>
+					    $(document).ready(function () {
+					        $(".slideshow").cycle({
+					            next: ".slideshow",
+					            speed: 2000,
+					            //timeout: 200,
+					            //random: 1,
+					            fx: 'fade'
 
-			        });
-			    });
-		    </script>
-		
-			
+					        });
+					    });
+		    </script>		
+
 			<div id="intro">
-				<h2>According to Chinese legend, there was a female warrior named Hua Mulan who joined the army to fight in place of her father. Mulan was reputed to be a very brave woman who disguised herself as a man and fought in combat for 12 years. She has become an iconic heroine in Chinese and western cultures alike.  
-				</h2>
-			</div>
-		
+				<p>According to Chinese legend, there was a female warrior named Hua Mulan who joined the army to fight in place of her father. Mulan was reputed to be a very brave woman who disguised herself as a man and fought in combat for 12 years. She has become an iconic heroine in Chinese and western cultures alike.  
+				</p>
+			</div>		
 		</section>
 		
 		<section id="lower">
@@ -72,15 +69,15 @@
 									<li><span class="times">Tuesday-Thursday <span class="days">11 a.m. ~ 9:30 p.m.</span></span></li>
                                     <li><span class="times">Friday-Saturday <span class="days2">11 a.m. ~ 10:30 p.m.</span></span></li>
                                     <li><span class="times">Sunday <span class="days3">11 a.m. ~ 9:30 p.m.</span></span></li>
-                                    <br />
+                                    
                              <li><h3>Locations:</h3> </li>   
                                     <li><span class="city">Waltham:</span></li>  
                                     <li><span class="address">835 Main street, Waltham, MA 02451</li>
-                                    <li><span class="address">(781) 642-8888</span> <a href=location.html"> map</a></li> 
+                                    <li><span class="address">(781) 642-8888</span> <a href=map.html> map</a></li> 
 
                                     <li><span class="city">Cambridge:</span></li>  
-                                    <li><span class="address">228 Broadway, Cambridge, MA 02139-1904</li>
-                                    <li><span class="address">(617) 441-8812</span> <a href=location.html"> map</a></li> 
+                                    <li><span class="address">228 Broadway, Cambridge, MA 02139</li>
+                                    <li><span class="address">(617) 441-8812</span> <a href=map.html> map</a></li> 
 						</ul>
 
 				</div>
@@ -90,7 +87,7 @@
                         <p>For those who enjoy the flavors of Asian food, but not the spice, Taiwanese tends to be less spicy than Sichuan cooking. 
                            It is also considered very healthy, as it uses less oil and salt than Chinese cuisine.</p>
 							
-						<p>We strong recommend the smoked pork with leek for first time diners. That is our specialty. 
+						<p>We strongly recommend the smoked pork with leek for first time diners. That is our specialty. 
                            Our chef is the only one who prepares it in all of Massachusetts. The salted crispy chicken is also very popular, and so are our handmade dumplings. 
                            Make yourself at home at Mulan. Let us take care of all the details for you. From food to music to flowers, we've got you covered. </p>
 
@@ -107,7 +104,7 @@
 									        var username = 'MuLanRestaurant';
 									        var count = 10;
 							
-									        $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?count=2&screen_name=' + username + '&amp;callback=?',
+									        $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?count=8&screen_name=' + username + '&amp;callback=?',
 
 										 function (data) {
 
@@ -147,17 +144,18 @@
 
 										    });
 										</script>
-
-
-
 							</div>	
-				</div>
+                        <div class="follow">
+                        <a href="https://twitter.com/MuLanRestaurant" class="twitter-follow-button" data-show-count="false" data-size="medium">Follow @MuLanRestaurant</a>
+						<script> !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "http://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+				        </div>	
+                </div>
 					
 				
 			</section>
 			
 			<footer>
-				
+				<p>Website Design by Tracia Liang. Copyright 2012.</p>
 			</footer>
 	
 		</div>
